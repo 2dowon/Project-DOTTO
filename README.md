@@ -1,5 +1,5 @@
 ## project_title = ("TOP10 로또")
-### project_subtitle = "a Lottery program based on a group of Top 10 numbers that extracted from a data frame"
+### project_subtitle = "a Lottery program running with Top 10 numbers extracted from a data frame"
 
 프로젝트 시작 2020년 11월 09일
 프로젝트 종료
@@ -13,14 +13,18 @@
 |Play Data_자율주행반|**편효범**|테스트3|
 
 #### 목차
-1. 프로그램 개발 계획서
-2. 개념 설계서
-3. 옵션사항
+1. 프로젝트 소개 및 주제 선정이유
+2. 프로젝트 실현을 위한 로드맵 및 도구
+3. 프로젝트 기대효과
+4. 프로젝트 시연
+5. 옵션(추가하면 좋겠다 싶은 기능들)
 
-#### 프로그램 개발 계획서
-1.1. 프로그램 개요
-1.2. 프로그램 개발 일정
-1.3. 프로그램 개발 조직구성
-1.4. 프로그램 개발 환경
+##### 1. 프로젝트 소개 및 주제 선정이유
 
-#### 프로그램 개요
+##### 2. 프로젝트 실현을 위한 로드맵 및 도구선정
+
+##### 3. 프로젝트 기대효과
+
+##### 4. 프로젝트 시연
+
+##### 5. 옵션(추가하면 좋겠다 싶은 기능들)
