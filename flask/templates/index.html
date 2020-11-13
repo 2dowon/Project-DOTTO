@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>LOTTO PROJECT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/fontAwesome.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/hero-slider.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-main.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/owl-carousel.css') }}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/ball.css') }}" />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800') }}"
+        />
+    </head>
+
+    <body>
+        <div
+            class="parallax-content baner-content"
+            id="home"
+            style="background-image: url({{ url_for('static', filename='img/black.jpg') }})"
+        >
+            <div class="container">
+                <div class="first-content">
+                    <h1>LOTTO</h1>
+                    <span><em>PLAYDATA</em> 자율주행 1기</span>
+                    <div class="tabs clearfix lottoBtns" data-tabgroup="first-tab-group">
+                        <button
+                            id="tab1"
+                            class="button"
+                            onclick="window.location.href='{{ url_for( 'randomLotto') }}';"
+                        >
+                            랜덤 로또 번호
+                        </button>
+                        <button
+                            id="tab2"
+                            class="button"
+                            onclick="window.location.href='{{ url_for( 'top10Lotto') }}';"
+                        >
+                            데이터 기반 로또 번호
+                        </button>
+                    </div>
+                    <p class="ball_container">
+                        <span class="ball_645 lrg ball1">{{ variable[0] }}</span>
+                        <span class="ball_645 lrg ball2">{{ variable[1] }}</span>
+                        <span class="ball_645 lrg ball3">{{ variable[2] }}</span>
+                        <span class="ball_645 lrg ball4">{{ variable[3] }}</span>
+                        <span class="ball_645 lrg ball5">{{ variable[4] }}</span>
+                        <span class="ball_645 lrg ball6">{{ variable[5] }}</span>
+                    </p>
+                    <div class="primary-button">
+                        <a href="#services">CHECK LOTTO DATA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="service-content"
+            id="services"
+            style="background-image: url({{ url_for('static', filename='img/white.jpg') }})"
+        >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="left-text">
+                            <h4>역대 로또 데이터 분석</h4>
+                            <div class="line-dec"></div>
+                            <p>
+                                2002년 12월 7일 1회부터 2020년 11월 7일 936회까지 역대 로또 당첨
+                                번호를 분석한 표 입니다.
+                            </p>
+                            <ul>
+                                <li>- Praesent porta urna id eros</li>
+                                <li>- Curabitur consectetur malesuada</li>
+                                <li>- Nam pretium imperdiet enim</li>
+                                <li>- Sed viverra arcu non nisi efficitur</li>
+                            </ul>
+                            <div class="primary-button">
+                                <a href="/lotto_store">1등 당첨 판매점 보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div>
+                            <div>
+                                <img
+                                    src="{{ url_for('static', filename='img/top10_lotto.png') }}"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- <div class="primary-button">
+                            <a href="#home">Back To Top</a>
+                        </div> -->
+
+                        <p>
+                            Copyright &copy; 2020 PLAYDATA - Design:
+                            <a rel="nofollow noopener" href="https://templatemo.com"
+                                ><em>TemplateMo</em></a
+                            >
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            window.jQuery ||
+                document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>');
+        </script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            function openCity(cityName) {
+                var i;
+                var x = document.getElementsByClassName('city');
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = 'none';
+                }
+                document.getElementById(cityName).style.display = 'block';
+            }
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                // Add smooth scrolling to all links
+                $('.fixed-side-navbar a, .primary-button a').on('click', function (event) {
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== '') {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate(
+                            {
+                                scrollTop: $(hash).offset().top,
+                            },
+                            800,
+                            function () {
+                                // Add hash (#) to URL when done scrolling (default click behavior)
+                                window.location.hash = hash;
+                            }
+                        );
+                    } // End if
+                });
+            });
+        </script>
+    </body>
+</html>
