@@ -1,11 +1,9 @@
-<!doctype html>
+
 <html>
 <head>
-<title>a Lottery program with Top 10 numbers</title>
-<meta charset="utf-8">
+
 </head>
-## project_title = ("TOP10 로또")
-### project_subtitle = "a Lottery program running with Top 10 numbers extracted from a frequently appeard number group with 1 to 45 according to an official data frame"
+
 
 프로젝트 시작 2020년 11월 09일
 프로젝트 종료
