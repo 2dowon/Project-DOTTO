@@ -1,8 +1,7 @@
-<!doctype html>
+
 <html>
 <head>
-<title>a Lottery program with Top 10 numbers</title>
-<meta charset="utf-8">
+
 </head>
 
 
