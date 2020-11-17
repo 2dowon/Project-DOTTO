@@ -48,7 +48,7 @@
 ![image3.png](./image/image3.png)
  
 
-![video.mp4](./video/vide.mp4)
+<iframe width="560" height="315" src="./video/vide.mp4" frameborder="0" allowfullscreen></iframe>
 ##### 5. 결론
 1주차  
 
