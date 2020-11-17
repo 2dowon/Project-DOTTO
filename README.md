@@ -43,6 +43,9 @@
 ##### 4. 프로젝트 시연
 ![image1.png](./image/image1.png)
 
+![image2.png](./image/image2.png)
+
+![image3.png](./image/image3.png)
  
 ##### 5. 결론
 1주차  
