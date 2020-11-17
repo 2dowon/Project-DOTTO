@@ -41,11 +41,8 @@
 확률의 분모를 줄여 로또 당첨을 원하는 사용자에게 이 프로그램을 제공할 수 있을 것으로 기대
 
 ##### 4. 프로젝트 시연
-C:\Users\ggwns\Desktop\로또프로젝트\KakaoTalk_20201117_084856782.png
+![image1.png](./image/image1.png)
 
-C:\Users\ggwns\Desktop\로또프로젝트\KakaoTalk_20201117_084856782_01.png
-
-C:\Users\ggwns\Desktop\로또프로젝트\KakaoTalk_20201117_084856782_02.png
  
 ##### 5. 결론
 1주차  
