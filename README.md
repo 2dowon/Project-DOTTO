@@ -119,9 +119,6 @@ __프로젝트 인원__
 
 # 4. 프로젝트 시연
 
-<iframe width="640" height="360" src="./video/video.mp4" frameborder="0" gesture="media" allowfullscreen=""></iframe>
-
-<iframe width="640" height="360" src="https://j.gifs.com/jZp2El.gif" frameborder="0" gesture="media" allowfullscreen=""></iframe>
 
 </br>
 
