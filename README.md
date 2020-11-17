@@ -47,6 +47,8 @@
 
 ![image3.png](./image/image3.png)
  
+
+![video.mp4](./video/vide.mp4)
 ##### 5. 결론
 1주차  
 
