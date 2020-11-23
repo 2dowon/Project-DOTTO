@@ -8,12 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/fontAwesome.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/hero-slider.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-main.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl-carousel.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/ball.css') }}" />
-    <link rel="stylesheet"
-        href="{{ url_for('static', filename='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hero-slider.css') }}" />
 </head>
 
 <body>
@@ -21,6 +18,7 @@
         <div class="container">
             <div class="first-content">
                 <h1>DOTTO</h1>
+                <!-- <img src="{{ url_for('static', filename='img/playdata_logo.png', width=20, height=20) }}" /> -->
                 <span><em>PLAYDATA</em> 자율주행 1기</span>
                 <div class="tabs clearfix lottoBtns" data-tabgroup="first-tab-group">
                     <button id="tab1" class="button" onclick="window.location.href='{{ url_for( 'randomLotto') }}';">
@@ -74,7 +72,7 @@
                 <div class="col-md-8">
                     <div>
                         <div>
-                            <img src="{{ url_for('static', filename='img/top10_lotto.png') }}" />
+                            <img src="{{ url_for('static', filename='img/top10_lotto.png', width=100) }}" />
                         </div>
                     </div>
                 </div>
@@ -100,23 +98,6 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-        window.jQuery ||
-            document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>');
-    </script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        function openCity(cityName) {
-            var i;
-            var x = document.getElementsByClassName('city');
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = 'none';
-            }
-            document.getElementById(cityName).style.display = 'block';
-        }
-    </script>
 
     <script>
         $(document).ready(function () {

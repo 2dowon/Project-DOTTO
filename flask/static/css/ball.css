@@ -71,6 +71,11 @@
     background: radial-gradient(circle at 65% 15%, white 1px,  #DBF74C 3%,  #b0d840 60%,  #DBF74C 100%); 
 }
 
+
 table tr td .ball_645.sml {
     margin: 0 3px;
+}
+
+span .ball_645 {
+    background-color: black;
 }
