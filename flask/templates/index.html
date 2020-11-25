@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-main.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/ball.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/hero-slider.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/newball.css') }}" />
 </head>
 
 <body>
@@ -19,25 +20,51 @@
             <div class="first-content">
                 <h1>DOTTO</h1>
                 <!-- <img src="{{ url_for('static', filename='img/playdata_logo.png', width=20, height=20) }}" /> -->
-                <span><em>PLAYDATA</em> 자율주행 1기</span>
+                <span style="font-size: 29px;">The way of <em>making money</em></span>
                 <div class="tabs clearfix lottoBtns" data-tabgroup="first-tab-group">
                     <button id="tab1" class="button" onclick="window.location.href='{{ url_for( 'randomLotto') }}';">
-                        랜덤 로또 번호
+                        GENERATE LOTTO
                     </button>
                     <button id="tab2" class="button" onclick="window.location.href='{{ url_for( 'top10Lotto') }}';">
-                        데이터 기반 로또 번호
+                        GENERATE DOTTO
                     </button>
                 </div>
-                <p class="ball_container">
-                    <span class="ball_645 lrg ball1">{{ variable[0] }}</span>
-                    <span class="ball_645 lrg ball2">{{ variable[1] }}</span>
-                    <span class="ball_645 lrg ball3">{{ variable[2] }}</span>
-                    <span class="ball_645 lrg ball4">{{ variable[3] }}</span>
-                    <span class="ball_645 lrg ball5">{{ variable[4] }}</span>
-                    <span class="ball_645 lrg ball6">{{ variable[5] }}</span>
-                </p>
+                <span class="newball_container">
+                    <div class="stage">
+                        <div class="ball ball1" tabIndex="-1">
+                            <div class="number">{{ variable[0] }}</div>
+                        </div>
+                    </div>
+                    <div class="stage">
+                        <div class="ball ball2" tabIndex="-1">
+                            <div class="number">{{ variable[1] }}</div>
+                        </div>
+                    </div>
+                    <div class="stage">
+                        <div class="ball ball3" tabIndex="-1">
+                            <div class="number">{{ variable[2] }}</div>
+                        </div>
+                    </div>
+                    <div class="stage">
+                        <div class="ball ball4" tabIndex="-1">
+                            <div class="number">{{ variable[3] }}</div>
+                        </div>
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="stage">
+                        <div class="ball ball5" tabIndex="-1">
+                            <div class="number">{{ variable[4] }}</div>
+                        </div>
+                    </div>
+                    <div class="stage">
+                        <div class="ball ball6" tabIndex="-1">
+                            <div class="number">{{ variable[5] }}</div>
+                        </div>
+                    </div>
+                </span>
+
                 <div class="primary-button">
-                    <a href="#services">CHECK LOTTO DATA</a>
+                    <a href="#services">LOOK UP MORE</a>
                 </div>
             </div>
         </div>
