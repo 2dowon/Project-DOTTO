@@ -41,7 +41,7 @@
 
 ## 소개
 
-: 크롤링을 이용한 **역대 로또번호 데이터** 를 추출하여 **가장 많이 뽑힌 번호** 10개를 조합한 로또 번호 생성 및 1등 당첨 판매점 위치 제공
+: 크롤링을 이용한 **역대 로또번호 데이터** 를 추출하여 **가장 많이 뽑힌 번호** 10개를 조합한 로또 번호 생성 및 **1등 당첨 판매점 위치 제공**
 
 </br>
 
@@ -57,13 +57,26 @@
 # 2. 프로젝트 실현을 위한 구성도 및 개발에 사용된 도구
 
 ## 구성도
+<br>
+<br>
 
-<img src="./image/flowchart1.jpg" alt="drawing" width="600"/>
+- 개발자
+
+<img src="./image/flowchart1.png" alt="drawing" width="600"/>
 
 
+<br>
+<br>
+<br>
+<br>
 
+- 유저
 
-<img src="./image/flowchart2.jpg" alt="drawing" width="600"/>
+<img src="./image/flowchart2.png" alt="drawing" width="600"/>
+
+<br>
+<br>
+<br>
 
 </br>
 </br>
