@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # DOTTO 
+=======
+# DOTTO 프로젝트
+>>>>>>> origin/Visualize
 
 프로젝트 시작 2020년 11월 09일
 </br>
@@ -41,7 +45,11 @@
 
 ## 소개
 
+<<<<<<< HEAD
 : 크롤링을 이용한 **역대 로또번호 데이터** 를 추출하여 **가장 많이 뽑힌 번호** 10개를 조합한 로또 번호 생성 및 1등 당첨 판매점 위치 제공
+=======
+: 크롤링을 이용한 **역대 로또번호 데이터** 를 추출하여 **가장 많이 뽑힌 번호** 10개를 조합한 로또 번호 생성 및 **1등 당첨 판매점 위치 제공**
+>>>>>>> origin/Visualize
 
 </br>
 
@@ -55,6 +63,7 @@
 </br>
 
 # 2. 프로젝트 실현을 위한 구성도 및 개발에 사용된 도구
+<<<<<<< HEAD
 
 ## 구성도
 
@@ -64,6 +73,30 @@
 
 
 <img src="./image/flowchart2.jpg" alt="drawing" width="600"/>
+=======
+
+## 구성도
+<br>
+<br>
+
+- 개발자
+
+<img src="./image/flowchart1.png" alt="drawing" width="600"/>
+
+
+<br>
+<br>
+<br>
+<br>
+
+- 유저
+
+<img src="./image/flowchart2.png" alt="drawing" width="600"/>
+
+<br>
+<br>
+<br>
+>>>>>>> origin/Visualize
 
 </br>
 </br>
@@ -97,11 +130,20 @@
 <img src="./image/var_map.png" alt="drawing" width="600"/>
 
 ### lotto_data_visualize.ipynb
+<<<<<<< HEAD
+
+<img src="./image/var_visualize.png" alt="drawing" width="600"/>
+=======
+>>>>>>> origin/Visualize
 
 <img src="./image/var_visualize.png" alt="drawing" width="600"/>
 
 </br>
 </br>
+<<<<<<< HEAD
+</br>
+=======
+>>>>>>> origin/Visualize
 
 ## 일정 관리
 
