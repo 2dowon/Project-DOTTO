@@ -67,8 +67,10 @@
   - 데이터 시각화 : NumPy, Pandas, Seaborn, Matplolib
   - 지도 시각화 : NumPy, Pandas, Folium, Requests
 - WEB
+  
   : Flask, HTML, CSS
 - 소스 관리
+  
   : GitHub
 
 </br>
