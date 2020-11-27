@@ -49,9 +49,9 @@
 
 # 2️⃣ DOTTO 구현 과정
 
-### DOTTO의 flowchart
+### flowchart
 
-<img src="./image/flowchart.png" alt="drawing" width="800"/>
+<img src="./image/flowchart.png" alt="drawing" width="1000"/>
 
 </br>
 </br>
@@ -80,8 +80,6 @@
 
 <img src="./image/var_lotto_data.png" alt="var_table" width="600"/>
 
-</br>
-
 #### lotto_program.ipynb
 
 <img src="./image/var_lotto_program.png" alt="var_table" width="600"/>
@@ -99,7 +97,7 @@
 
 ### 일정 관리
 
-<img src="./image/time.png" alt="schedule" width="600"/>
+<img src="./image/time.png" alt="schedule" width="800"/>
 
 </br>
 </br>
