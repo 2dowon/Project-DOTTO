@@ -51,7 +51,7 @@
 
 ### DOTTO의 flowchart
 
-<img src="./image/flowchart.png" alt="drawing" width="600"/>
+<img src="./image/flowchart.png" alt="drawing" width="800"/>
 
 </br>
 </br>
