@@ -1,5 +1,8 @@
-# PROJECT DOTTO
+발표자료 : [https://speakerdeck.com/2dowon/project-dotto](https://speakerdeck.com/2dowon/project-dotto)
 
+</br>
+
+# PROJECT DOTTO
 2020.11.09 ~ 2020.11.23
 
 </br>
