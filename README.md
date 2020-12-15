@@ -150,5 +150,6 @@ DOTTO 프로젝트의 결과에 있어 아쉬움이 남아 DOTTO와 비슷한 �
 
 # 참고 자료
 - [동행복권](https://dhlottery.co.kr/gameResult.do?method=byWin&drwNo=936)
-- [VANILLA FREE CSS TEMPLATE](https://www.free-css.com/free-css-templates/page259/vanilla)
 - [로또리치](http://www.lottorich.co.kr/)
+- [VANILLA FREE CSS TEMPLATE](https://www.free-css.com/free-css-templates/page259/vanilla)
+
