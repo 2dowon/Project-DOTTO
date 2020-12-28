@@ -1,4 +1,4 @@
-발표자료 : [https://speakerdeck.com/2dowon/project-dotto](https://speakerdeck.com/2dowon/project-dotto)
+[발표자료](https://docs.google.com/presentation/d/e/2PACX-1vTyXgcLj27cmU79nT15-mA6TEEx-Ps0psLgWI6PxifJCocHWoDEsq3MPt5bfp-PAp7zkUWsodpH6hkn/pub?start=true&loop=false&delayms=60000)
 
 </br>
 
